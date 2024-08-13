@@ -20,7 +20,7 @@ HOWEVER, if you are a Windows user you will need to do some extra work. A few pi
 
 Microsoft have made it much easier to run a Linux virtual machine on your Windows machine. You can use this to ensure you can take part in the hands-on workshops that are part of this summer school.
 
-To run Linux we will use the `Windows Subsystem for Linux (WSL) <https://learn.microsoft.com/en-us/windows/wsl/about>`_. To install WSL simply follow the instructions detailed `here <https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command>`_. It's a simple process that involves a few command line commands, let us know if you have any trouble.
+To run Linux we will use the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/about). To install WSL simply follow the instructions detailed [here](https://learn.microsoft.com/en-us/windows/wsl/install#install-wsl-command). It's a simple process that involves a few command line commands, let us know if you have any trouble.
 
 Once you have Linux up and running simply open the terminal and you can clone the repositories into a location of your choosing and move onto the next sections.
 
