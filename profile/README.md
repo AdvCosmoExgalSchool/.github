@@ -28,11 +28,22 @@ Once you have Linux up and running simply open the terminal and you can clone th
 
 Firstly you will need Python `>=3.10`. To check which version of Python you are using you can run `python --version` on the command line. There are various ways to install specific Python versions including your Linux software provider and homebrew. `pyenv` is a very good way of keeping track of multiple Python installations if you want to install a tool to help manage Python versions.
 
-Once you have ascertained you have a compatible Python version you can install the Python packages you will need. These are listed, along with installation instructions, below.
+Although this step isn't 100% required it's recommended to set up an isolated environment for the summer school to ensure there are no version clashes. To do so navigate to the location you want to keep the environment and run:
+```bash
+python -m venv aces-env
+```
+This will create a directory called `aces-env` which contains the python environment. To activate the environment run:
+```bash
+source aces-env/bin/activate
+```
+Note that the above is different on Windows but you shouldn't be using Windows if you got this far...
+
+Once you have ascertained you have a compatible Python version and setup your environment you can install the Python packages you will need. These are listed, along with installation instructions, below.
 
 - `Synthesizer`: A forward modelling python package. To install first clone the repo with `git clone https://github.com/flaresimulations/synthesizer.git`, enter the repo and then run `pip install .`.
 - `CAMB`: Code for Anisotropies in the Microwave Background - Install with `pip install camb`.
 - `cobaya`: Code for Bayesian analysis. Install with `pip install cobaya`.
+- `notebook`: Jupyter notebooks. Install with `pip install notebook` (once installed you can invoke `notebook` on the command line to open a jupyter notebook session in the browser).
 
 ### Simulation Dependencies
 
