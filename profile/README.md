@@ -26,12 +26,16 @@ Once you have Linux up and running simply open the terminal and you can clone th
 
 ### Python Environment
 
-Firstly you will need Python `>=3.10`. To check which version of Python you are using you can run `python --version` on the command line. There are various ways to install specific Python versions including your Linux software provider and homebrew. `pyenv` is a very good way of keeping track of multiple Python installations if you want to install a tool to help managing Python versions.
+Firstly you will need Python `>=3.10`. To check which version of Python you are using you can run `python --version` on the command line. There are various ways to install specific Python versions including your Linux software provider and homebrew. `pyenv` is a very good way of keeping track of multiple Python installations if you want to install a tool to help manage Python versions.
 
 Once you have ascertained you have a compatible Python version you can install the Python packages you will need. These are listed, along with installation instructions, below.
 
 - `Synthesizer`: A forward modelling python package. To install first clone the repo with `git clone https://github.com/flaresimulations/synthesizer.git`, enter the repo and then run `pip install .`.
 - `CAMB`: Code for Anisotropies in the Microwave Background - Install with `pip install camb`.
-- `cobaya`: Code for bayesian analysis. Install with `pip install cobaya`.
+- `cobaya`: Code for Bayesian analysis. Install with `pip install cobaya`.
 
 ### Simulation Dependencies
+
+For the simulation workshop, the setup is a little bit more involved. You will need some software packages required by the code and will need to compile the simulation code itself.
+
+This setup is described in detail in the workshop [README](https://github.com/AdvCosmoExgalSchool/SWIFT-Workshop/blob/main/README.md).
