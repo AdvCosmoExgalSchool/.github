@@ -43,6 +43,7 @@ Once you have ascertained you have a compatible Python version and setup your en
 - `Synthesizer`: A forward modelling python package. To install first clone the repo with `git clone https://github.com/flaresimulations/synthesizer.git`, enter the repo and then run `pip install .`.
 - `CAMB`: Code for Anisotropies in the Microwave Background - Install with `pip install camb`.
 - `cobaya`: Code for Bayesian analysis. Install with `pip install cobaya`.
+- `swiftsimio`: A tool for interacting with SWIFT outputs. Install with `pip install swiftsimio`.
 - `notebook`: Jupyter notebooks. Install with `pip install notebook` (once installed you can invoke `notebook` on the command line to open a jupyter notebook session in the browser).
 
 ### Simulation Dependencies
