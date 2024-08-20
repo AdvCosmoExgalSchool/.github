@@ -8,7 +8,7 @@ The repositories containing the hands-on workshop materials are all contained in
 
 - Simulations: UNDER CONSTRUCTION
 - Cosmology: UNDER CONSTRUCTION
-- Observations: UNDER CONSTRUCTION
+- Observations: https://github.com/AdvCosmoExgalSchool/Synthesizer-SED-Workshop
 
 ## Prerequistes
 
@@ -41,6 +41,8 @@ Note that the above is different on Windows but you shouldn't be using Windows i
 Once you have ascertained you have a compatible Python version and setup your environment you can install the Python packages you will need. These are listed, along with installation instructions, below.
 
 - `Synthesizer`: A forward modelling python package. To install first clone the repo with `git clone https://github.com/flaresimulations/synthesizer.git`, enter the repo and then run `pip install .`.
+- `Bagpipes`: A Bayesian SED fitting code. Install with `pip install bagpipes`.
+- `MulitNest`: Bayesian inference tool. Instructions can be found [here](https://bagpipes.readthedocs.io/en/latest/index.html) but if these don't work, `nautilus` should work instead.
 - `CAMB`: Code for Anisotropies in the Microwave Background - Install with `pip install camb`.
 - `cobaya`: Code for Bayesian analysis. Install with `pip install cobaya`.
 - `swiftsimio`: A tool for interacting with SWIFT outputs. Install with `pip install swiftsimio`.
