@@ -1,6 +1,6 @@
 # ACES
 
-...
+In this GitHub organisation, you can find everything you need for the workshop portion of the ACES workshop. Below are instructions for getting setup for each of the workshops.
 
 ## Repos
 
