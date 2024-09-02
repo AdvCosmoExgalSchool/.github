@@ -6,8 +6,8 @@
 
 The repositories containing the hands-on workshop materials are all contained in this GitHub organisation. Make yourself a directory for the summer school and clone each of these into it.
 
-- Simulations: UNDER CONSTRUCTION
-- Cosmology: UNDER CONSTRUCTION
+- Simulations: https://github.com/AdvCosmoExgalSchool/SWIFT-Workshop
+- Cosmology: https://github.com/AdvCosmoExgalSchool/CAMB-Cobaya-Workshop
 - Observations: https://github.com/AdvCosmoExgalSchool/Synthesizer-SED-Workshop
 
 ## Prerequistes
